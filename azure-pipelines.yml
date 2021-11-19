@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-container: mcr.microsoft.com/dotnet/aspnet:5.8
+container: mcr.microsoft.com/dotnet/core/sdk:5.0
 
 steps:
   - task: DotNetCoreCLI@2
